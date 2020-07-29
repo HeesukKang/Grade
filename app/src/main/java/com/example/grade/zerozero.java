@@ -568,7 +568,7 @@ public class zerozero extends AppCompatActivity {
                 }
                 break;
             case 9:
-                row = sheet9.createRow(0); // 오류
+                row = sheet9.createRow(0);
                 // 1번 셀은 빈칸
                 cell = row.createCell(0);
                 // 2번 셀은 과목이름
@@ -584,7 +584,7 @@ public class zerozero extends AppCompatActivity {
                 cell = row.createCell(4);
                 cell.setCellValue("전공");
                 for (int i = 0; i < 10; i++) {
-                    row = sheet9.createRow(i + 1); // 오류
+                    row = sheet9.createRow(i + 1);
                     cell = row.createCell(1);
                     cell.setCellValue(subject[i]);
                     cell = row.createCell(2);
